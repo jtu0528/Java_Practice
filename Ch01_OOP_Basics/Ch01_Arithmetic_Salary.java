@@ -6,7 +6,7 @@
  * Chapter 1: 基礎運算與型別處理
  * 重點：掌握變數命名規範、型別精度選擇、以及運算的隱式轉型。
  */
-public class BasicSalaryCalculator {
+public class Ch01_Arithmetic_Salary {
     public static void main(String[] args) {
         // 1. 變數宣告：命名採用小駝峰式 (camelCase)，並根據數值特性選擇正確型別 (int/double)
         String employeeName = "學員 A";
