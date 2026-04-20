@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Ch12_HashMap_Practice {
+public class Ch11_HashMap_Practice {
     public static void main(String[] args) {
         // 1. 建立 HashMap (Key: 球員名稱, Value: 效力球隊)
         HashMap<String, String> playerMap = new HashMap<>();
