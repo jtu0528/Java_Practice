@@ -14,7 +14,7 @@ class InsurancePolicy {
 
     public InsurancePolicy(String name, int amount) {
         this.name = name;
-        // 這裡我們直接呼叫 setter，確保連建構時都要經過檢查
+        // 直接呼叫 setter，確保連建構時都要經過檢查
         setAmount(amount);
     }
 
@@ -45,7 +45,7 @@ public class P03_PolicyBatchSystem {
             try {
                 System.out.println("正在審核: " + policy.getName());
                 
-                // 模擬業務邏輯：如果金額為 0，視為異常資料
+                // 如果金額為 0，視為異常資料
                 if (policy.getAmount() == 0) {
                     throw new Exception("警告：保單 [" + policy.getName() + "] 金額異常，請人工確認！");
                 }
